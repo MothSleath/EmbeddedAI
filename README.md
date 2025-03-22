@@ -89,13 +89,6 @@ git clone https://github.com/YourUsername/YourRepoName.git
 
 ---
 
-## High-Level Model Description
-- **Input**: A set of numerical features describing the machine’s operational parameters (e.g., temperature, torque, etc.).  
-- **Output**: Probability distribution or direct classification indicating potential machine failures.  
-- The model is trained in a Google Colab notebook, exported as `.h5` or `.tflite`, and integrated into the STM32 firmware.
-
----
-
 ## Troubleshooting
 - **UART Connection**: Ensure your baud rate and COM port settings in `Communication_STM32_NN.py` match those configured in STM32CubeIDE.  
 - **Model Format**: If `.h5` causes issues in STM32CubeIDE, use the `.tflite` model instead.  
