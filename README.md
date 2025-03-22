@@ -46,6 +46,9 @@ This repository showcases an **educational project** aiming to implement a **pre
 - **model_analyse_report.txt**  
   Report from STM32CubeIDE detailing the model’s structure and resource usage.
 
+- **EmbeddedAI_xtest_NN.npy** / **EmbeddedAI_ytest_NN.npy**
+  Files used to test the model running on the STM32 board.
+
 - **README.md**  
   This file, explaining how to set up and run the project.
 
